@@ -16,26 +16,26 @@ import {
 } from 'lucide-react';
 
 // --- CONFIGURATION / CONTENT DATA ---
-const HERO_VIDEO_URL = "/assets/videos/hero.mp4"; // Replace with your recap video
+const HERO_VIDEO_URL = "https://res.cloudinary.com/ddrqzr769/video/upload/v1771479410/hero_byfy28.mp4"; // Replace with your recap video
 
 const RECAP_VIDEOS = [
   {
     id: 1,
     title: "The Arrival Vibe",
         thumb: "/assets/recap/thumb1.jpg",
-        url: "/assets/recap/IMG_4039.mp4"
+        url: "https://res.cloudinary.com/ddrqzr769/video/upload/v1771479472/IMG_4039_1_ki70f1.mp4"
   },
   {
     id: 2,
     title: "Cultural Immersion",
         thumb: "/assets/recap/thumb2.jpg",
-      url: "/assets/recap/IMG_1687.mp4"
+      url: "https://res.cloudinary.com/ddrqzr769/video/upload/v1771479401/IMG_1687_1_x5krj2.mp4"
   },
   {
     id: 3,
     title: "The Global Network",
       thumb: "/assets/recap/thumb3.jpg",
-      url: "/assets/recap/IMG_1683.mp4"
+      url: "https://res.cloudinary.com/ddrqzr769/video/upload/v1771479490/IMG_1683_1_fc2vyt.mp4"
   }
 ];
 
@@ -56,7 +56,7 @@ const VIDEO_TESTIMONIALS = [
         country: "Indonesia",
         color: "#FF0000",
         thumb: "/assets/testimonials/dan.jpg",
-        video: "/assets/testimonials/daniyal.mp4"
+        video: "https://res.cloudinary.com/ddrqzr769/video/upload/v1771480281/daniyal_1_1_ao3hox.mp4"
     },
 
     {
@@ -65,7 +65,7 @@ const VIDEO_TESTIMONIALS = [
         country: "Indonesia",
         color: "#E30A17",
         thumb: "/assets/testimonials/momina.jpg",
-        video: "/assets/testimonials/momt.mp4"
+        video: "https://res.cloudinary.com/ddrqzr769/video/upload/v1771480183/momt_pehn8p.mp4"
     },
 
     {
@@ -74,7 +74,7 @@ const VIDEO_TESTIMONIALS = [
         country: "Indonesia",
         color: "#2D2A4A",
         thumb: "/assets/testimonials/ray.jpg",
-        video: "/assets/testimonials/Rayyan.mp4"
+        video: "https://res.cloudinary.com/ddrqzr769/video/upload/v1771480208/Rayyan_ez9iao.mp4"
     }
 ];
 
